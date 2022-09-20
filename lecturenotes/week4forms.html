@@ -7,10 +7,29 @@
 <body>
 <h1>Food Order Form</h1>
 <form method="post" action="">
+<!--input-->
     <label for="fullname">Name:</label>
     <input type="text" id="fullname" name="fullname"><br>
+<!--textarea-->
     <label for="specialinstructions">Special Instructions:</label>
     <textarea id="specialinstructions" name="specialinstructions"></textarea><br>
+<!--radio button-->
+    <label for="delivery">Delivery</label>
+    <input type="radio" id="delivery" name="deliverypickup">
+    <label for="pickup">Pickup</label>
+    <input type="radio" id="pickup" name="deliverypickup" value="pickup"><br>
+<!--checkbox-->
+    <label for="plastic">Do you need plastic utensiles?</label>
+    <input type="checkbox" id="plastic" value="yes"><br>
+<!--select box-->
+    <label for="region">What region?</label>
+    <select id="region" name="region">
+	   <option>Westcott</option>
+	   <option>Downtown</option>
+	   <option>Eastwood</option>
+	   <option>Oak Street</option>
+    </select><br>
+<!--submit-->
     <input type="submit" value="send my form">
 </form>
 </body>
