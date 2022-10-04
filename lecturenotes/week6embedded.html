@@ -2,20 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-</head>
+    <title>Title</title></head>
+<!--This is an embedded Stylesheet-->
 <style>
-    p {
+    p, h1 {
         color: teal;
-        font-family: Arial, Helvetica,sans-serif;
-        font-size: 200%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.5em; /* 1.5em means 150% */
+        font-weight: bolder;
+    }
+
+    /* descendant selectors pick an element inside another element*/
+    p a {
+        color: orange;
+    }
+
+    #firstbullet {
+        color: green;
+    }
+
+    .pinktext {
+        color: pink;
     }
 </style>
 <body>
 <h1>Week 6 CSS</h1>
 <!--Type "Lorem" + TAB for sample paragraph-->
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A alias amet architecto autem consequatur deleniti ea
-    explicabo laboriosam laborum, libero numquam officiis, omnis quod reiciendis rem repellendus repudiandae saepe
-    totam?</p>
+<p>Lorem <a href="http://www.ebay.com">ipsum</a> dolor sit amet, consectetur adipisicing elit. A alias amet architecto
+    autem consequatur deleniti ea explicabo laboriosam laborum, libero numquam
+    officiis, omnis quod reiciendis rem repellendus repudiandae saepe totam?</p>
+<ul>
+    <li><a href="http://www.amazon.com" id="firstbullet">Amazon</a></li>
+    <li><a href="http://www.google.com" class="pinktext">Google</a></li>
+</ul>
 </body>
 </html>
