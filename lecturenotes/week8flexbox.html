@@ -14,6 +14,10 @@
             width: 150px;
         }
 
+        footer {
+            background-color: #000e54;
+        }
+
         .row1 {
             display: flex;
         }
@@ -22,101 +26,115 @@
             flex: 1;
         }
 
+        footer {
+            background-color: #000e54;
+            color: #c9cbd0;
+        }
+
+        .seal {
+            flex: 2;
+        }
+        .quicklinks{
+            flex:1;
+        }
+        hr{
+            width: 80%;
+        }
         /* footer colors background is #000e54, text is #c9cbd0 */
     </style>
 </head>
 <body data-new-gr-c-s-check-loaded="14.1084.0" data-gr-ext-installed="">
+<footer>
 <div class="row1"><!-- the row for the flexbox-->
-    <div><img src="./week8flexbox_files/syracuse-university-seal-white.svg"></div>
+    <div class="seal"><img src="./week8flexbox_files/syracuse-university-seal-white.svg"></div>
     <div>
-        <p>Syracuse University<br>
-	   900 South Crouse Ave.<br>
-	   Syracuse, NY 13244</p>
-        <p>
-            Phone: +1.315.443.1870
-        </p>
+	   <p>Syracuse University<br>
+		  900 South Crouse Ave.<br>
+		  Syracuse, NY 13244</p>
+	   <p>
+		  Phone: +1.315.443.1870
+	   </p>
     </div>
-    <div><p>
-        <strong>Popular</strong><br>
-        Academic Calendar<br>
-        Campus Map<br>
-        Careers<br>
-        Libraries<br>
-        Majors and Minors<br>
-        Visits and Tours
+    <div class="quicklinks"><p>
+	   <strong>Popular</strong><br>
+	   Academic Calendar<br>
+	   Campus Map<br>
+	   Careers<br>
+	   Libraries<br>
+	   Majors and Minors<br>
+	   Visits and Tours
     </p></div>
-    <div><p>
-        <strong> A-Z</strong><br>
-        Find People <br>
-        Academic Departments<br>
-        Schools and Colleges<br>
-        Sitemap<br>
-        Search
+    <div class="quicklinks"><p>
+	   <strong> A-Z</strong><br>
+	   Find People <br>
+	   Academic Departments<br>
+	   Schools and Colleges<br>
+	   Sitemap<br>
+	   Search
     </p></div>
-    <div><p>
-        <strong>Contact</strong><br>
-        Admissions<br>
-        Financial Aid<br>
-        Emergency Contacts<br>
-        Human Resources<br>
-        Website Feedback<br>
-        Make a Gift
+    <div class="quicklinks"><p>
+	   <strong>Contact</strong><br>
+	   Admissions<br>
+	   Financial Aid<br>
+	   Emergency Contacts<br>
+	   Human Resources<br>
+	   Website Feedback<br>
+	   Make a Gift
     </p></div>
-    <div><p>
-        <strong>Login</strong><br>
-        MySlice<br>
-        BlackBoard<br>
-        Student Email<br>
-        Faculty and Staff Email
+    <div class="quicklinks"><p>
+	   <strong>Login</strong><br>
+	   MySlice<br>
+	   BlackBoard<br>
+	   Student Email<br>
+	   Faculty and Staff Email
     </p></div>
 </div>
 
+<div class="row2">
+    <div><a class="facebook" href="https://www.facebook.com/syracuseuniversity/">
+	   <svg width="14" height="26" aria-labelledby="footer-social-facebook" role="img"
+		   xmlns="http://www.w3.org/2000/svg"
+		   viewBox="0 0 13 24" enable-background="new 0 0 13 24"><title id="footer-social-facebook">Like Syracuse on
+		  Facebook</title>
+		  <path d="M12 3.8H9.8c-1.7 0-2 .8-2 2v2.6h4.1l-.6 4.2H7.8v10.6H3.5V12.6H0V8.5h3.6v-3C3.6 2 5.8 0 8.9 0c1.5 0 2.8.1 3.2.2L12 3.8z"></path>
+	   </svg>
+    </a>
+	   <a class="twitter" href="https://twitter.com/SyracuseU">
+		  <svg width="28" height="21" aria-labelledby="footer-social-twitter" role="img"
+			  xmlns="http://www.w3.org/2000/svg"
+			  viewBox="0 0 24 20" enable-background="new 0 0 24 20"><title id="footer-social-twitter">Follow Syracuse
+			 on
+			 Twitter</title>
+			 <path d="M21.3 5.1c0 .2 0 .4 0 .6 0 6.4-4.9 13.8-13.8 13.8-2.8 0-5.3-.8-7.5-2.2.4 0 .8.1 1.2.1 2.3 0 4.4-.8 6-2.1-2.1 0-3.9-1.4-4.5-3.4.3 0 .6.1.9.1.4 0 .9-.1 1.3-.2C2.7 11.3 1 9.4 1 7c0 0 0 0 0-.1.6.4 1.4.6 2.2.6C1.9 6.6 1 5.1 1 3.4c0-.9.2-1.7.7-2.5 2.4 3 6 4.9 10 5.1-.1-.4-.1-.7-.1-1.1 0-2.7 2.2-4.9 4.9-4.9 1.4 0 2.7.6 3.6 1.5 1.1-.2 2.2-.6 3.1-1.2-.4 1.1-1.1 2.1-2.1 2.7 1-.1 1.9-.4 2.8-.8-.8 1.3-1.6 2.2-2.6 2.9z"></path>
+		  </svg>
+	   </a>
+	   <a class="youtube" href="https://www.youtube.com/user/Syracuse">
+		  <svg width="28" height="18" aria-labelledby="footer-social-youtube" role="img"
+			  xmlns="http://www.w3.org/2000/svg"
+			  viewBox="0 0 25 18" enable-background="new 0 0 25 18"><title id="footer-social-youtube">Subscribe to
+			 Syracuse
+			 on YouTube</title>
+			 <path d="M24.6 15.1c-.3 1.4-1.4 2.4-2.7 2.5-3 .3-6.2.3-9.3.3s-6.3 0-9.3-.3C2 17.5.9 16.4.6 15.1 0 13.2 0 11 0 9s0-4.2.4-6.1C.7 1.5 1.8.5 3.1.4 6.2 0 9.3 0 12.5 0s6.3 0 9.3.3c1.3.1 2.4 1.2 2.7 2.5.5 2 .5 4.2.5 6.2s0 4.2-.4 6.1zm-7.1-6.9l-6.9-4.5c-.4-.2-.7-.2-1 0-.4.1-.6.5-.6.8v9c0 .3.2.7.5.8.1.1.4.1.5.1.2 0 .4 0 .5-.1l7-4.5c.3-.1.5-.5.5-.8s-.1-.5-.5-.8z"></path>
+		  </svg>
+	   </a>
+	   <a class="instagram" href="https://www.instagram.com/syracuseu/">
+		  <svg width="22" height="22" aria-labelledby="footer-social-instagram" role="img"
+			  xmlns="http://www.w3.org/2000/svg"
+			  viewBox="0 0 22 22" enable-background="new 0 0 22 22"><title id="footer-social-instagram">Follow
+			 Syracuse on
+			 Instagram</title>
+			 <path d="M11 7c-2.2 0-4 1.8-4 4s1.8 4 4 4 4-1.7 4-4-1.8-4-4-4zM21.9 6.5c-.1-1.8-.5-3.3-1.8-4.6S17.3.2 15.5.1C14 0 12.5 0 11 0S8 0 6.5.1C4.7.2 3.1.6 1.8 1.8.6 3.1.2 4.7.1 6.5 0 8 0 9.5 0 11s0 3 .1 4.5c.1 1.8.5 3.3 1.8 4.6 1.3 1.3 2.8 1.7 4.6 1.8 1.5.1 3 .1 4.5.1s3 0 4.5-.1c1.8-.1 3.3-.5 4.6-1.8 1.3-1.3 1.7-2.8 1.8-4.6.1-1.5.1-3 .1-4.5s0-3-.1-4.5zM11 17c-3.3 0-6-2.7-6-6s2.7-6 6-6 6 2.7 6 6-2.7 6-6 6zm6-10.5c-.8 0-1.5-.7-1.5-1.5s.7-1.5 1.5-1.5 1.5.7 1.5 1.5c0 .9-.7 1.5-1.5 1.5z"></path>
+		  </svg>
+	   </a></div>
+    <div>&copy Syracuse University. Knowledge crowns those who seek her.</div>
+    <div><a href="https://www.syracuse.edu/life/accessibility-diversity/accessible-syracuse/">Accessibility</a>
+	   <a href="http://middlestates.syr.edu/?_ga=1.122695753.313684714.1479758891">Accreditation</a>
+	   <a href="https://www.syracuse.edu/about/contact/emergencies/">Emergencies</a>
+	   <a href="https://www.syracuse.edu/about/site/privacy-policy/">Privacy</a></div>
 
 
+</div>
 
-
-
-
-
-
-
-
-
-<a class="facebook" href="https://www.facebook.com/syracuseuniversity/">
-    <svg width="14" height="26" aria-labelledby="footer-social-facebook" role="img" xmlns="http://www.w3.org/2000/svg"
-	    viewBox="0 0 13 24" enable-background="new 0 0 13 24"><title id="footer-social-facebook">Like Syracuse on
-	   Facebook</title>
-	   <path d="M12 3.8H9.8c-1.7 0-2 .8-2 2v2.6h4.1l-.6 4.2H7.8v10.6H3.5V12.6H0V8.5h3.6v-3C3.6 2 5.8 0 8.9 0c1.5 0 2.8.1 3.2.2L12 3.8z"></path>
-    </svg>
-</a>
-<a class="twitter" href="https://twitter.com/SyracuseU">
-    <svg width="28" height="21" aria-labelledby="footer-social-twitter" role="img" xmlns="http://www.w3.org/2000/svg"
-	    viewBox="0 0 24 20" enable-background="new 0 0 24 20"><title id="footer-social-twitter">Follow Syracuse on
-	   Twitter</title>
-	   <path d="M21.3 5.1c0 .2 0 .4 0 .6 0 6.4-4.9 13.8-13.8 13.8-2.8 0-5.3-.8-7.5-2.2.4 0 .8.1 1.2.1 2.3 0 4.4-.8 6-2.1-2.1 0-3.9-1.4-4.5-3.4.3 0 .6.1.9.1.4 0 .9-.1 1.3-.2C2.7 11.3 1 9.4 1 7c0 0 0 0 0-.1.6.4 1.4.6 2.2.6C1.9 6.6 1 5.1 1 3.4c0-.9.2-1.7.7-2.5 2.4 3 6 4.9 10 5.1-.1-.4-.1-.7-.1-1.1 0-2.7 2.2-4.9 4.9-4.9 1.4 0 2.7.6 3.6 1.5 1.1-.2 2.2-.6 3.1-1.2-.4 1.1-1.1 2.1-2.1 2.7 1-.1 1.9-.4 2.8-.8-.8 1.3-1.6 2.2-2.6 2.9z"></path>
-    </svg>
-</a>
-<a class="youtube" href="https://www.youtube.com/user/Syracuse">
-    <svg width="28" height="18" aria-labelledby="footer-social-youtube" role="img" xmlns="http://www.w3.org/2000/svg"
-	    viewBox="0 0 25 18" enable-background="new 0 0 25 18"><title id="footer-social-youtube">Subscribe to Syracuse
-	   on YouTube</title>
-	   <path d="M24.6 15.1c-.3 1.4-1.4 2.4-2.7 2.5-3 .3-6.2.3-9.3.3s-6.3 0-9.3-.3C2 17.5.9 16.4.6 15.1 0 13.2 0 11 0 9s0-4.2.4-6.1C.7 1.5 1.8.5 3.1.4 6.2 0 9.3 0 12.5 0s6.3 0 9.3.3c1.3.1 2.4 1.2 2.7 2.5.5 2 .5 4.2.5 6.2s0 4.2-.4 6.1zm-7.1-6.9l-6.9-4.5c-.4-.2-.7-.2-1 0-.4.1-.6.5-.6.8v9c0 .3.2.7.5.8.1.1.4.1.5.1.2 0 .4 0 .5-.1l7-4.5c.3-.1.5-.5.5-.8s-.1-.5-.5-.8z"></path>
-    </svg>
-</a>
-<a class="instagram" href="https://www.instagram.com/syracuseu/">
-    <svg width="22" height="22" aria-labelledby="footer-social-instagram" role="img" xmlns="http://www.w3.org/2000/svg"
-	    viewBox="0 0 22 22" enable-background="new 0 0 22 22"><title id="footer-social-instagram">Follow Syracuse on
-	   Instagram</title>
-	   <path d="M11 7c-2.2 0-4 1.8-4 4s1.8 4 4 4 4-1.7 4-4-1.8-4-4-4zM21.9 6.5c-.1-1.8-.5-3.3-1.8-4.6S17.3.2 15.5.1C14 0 12.5 0 11 0S8 0 6.5.1C4.7.2 3.1.6 1.8 1.8.6 3.1.2 4.7.1 6.5 0 8 0 9.5 0 11s0 3 .1 4.5c.1 1.8.5 3.3 1.8 4.6 1.3 1.3 2.8 1.7 4.6 1.8 1.5.1 3 .1 4.5.1s3 0 4.5-.1c1.8-.1 3.3-.5 4.6-1.8 1.3-1.3 1.7-2.8 1.8-4.6.1-1.5.1-3 .1-4.5s0-3-.1-4.5zM11 17c-3.3 0-6-2.7-6-6s2.7-6 6-6 6 2.7 6 6-2.7 6-6 6zm6-10.5c-.8 0-1.5-.7-1.5-1.5s.7-1.5 1.5-1.5 1.5.7 1.5 1.5c0 .9-.7 1.5-1.5 1.5z"></path>
-    </svg>
-</a>
-
-© Syracuse University. Knowledge crowns those who seek her.
-
-<a href="https://www.syracuse.edu/life/accessibility-diversity/accessible-syracuse/">Accessibility</a>
-<a href="http://middlestates.syr.edu/?_ga=1.122695753.313684714.1479758891">Accreditation</a>
-<a href="https://www.syracuse.edu/about/contact/emergencies/">Emergencies</a>
-<a href="https://www.syracuse.edu/about/site/privacy-policy/">Privacy</a>
-
+</footer>
 </body>
 </html>
