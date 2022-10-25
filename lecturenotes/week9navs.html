@@ -3,11 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <title>Navigation</title>
+    <style>
+        .nav1, .nav2, .nav3, .parentrow, .social{
+            display: flex;
+            background-color: #000000;
+            color: #ffffff;
+        }
+
+        .nav1 {
+            justify-content: flex-end; /*all flexboxes in end of row*/
+        }
+
+        .nav2 {
+            margin-top: 10px;
+            justify-content: space-around;
+		  margin-bottom: 10px;
+        }
+        div {
+            padding: 5px;
+        }
+	   .parentrow{
+		  justify-content: space-between;
+	   }
+
+    </style>
 </head>
 <body>
-Home
-About Us
-Product
-Contact
+
+<div class="nav1">
+    <div>Home</div>
+    <div>About Us</div>
+    <div>Product</div>
+    <div>Contact</div>
+</div>
+
+<div class="nav2">
+    <div>Home</div>
+    <div>About Us</div>
+    <div>Product</div>
+    <div>Contact</div>
+</div>
+
+<div class="parentrow">
+    <div>
+	   <div class="nav3">
+		  <div>Home</div>
+		  <div>About Us</div>
+		  <div>Product</div>
+		  <div>Contact</div>
+	   </div>
+    </div>
+    <div>
+	   <div class="social">
+		  <div>Facebook</div>
+		  <div>Twitter</div>
+	   </div>
+    </div>
+</div>
+
 </body>
 </html>
