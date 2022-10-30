@@ -12,7 +12,14 @@ nav{color: #ff0000; background-color: #1170ff; padding: 5px; margin-bottom: 30px
 
 nav a:hover {background-color: #fff4d6;}
 
-.row1{background-color: white; display:flex; margin: 10px}
+.row1{background-color: white; display:flex; margin: 10px; padding: 20px;}
 
 .row2{background-color: white; display:flex; margin: 10px}
 
+.address{display:flex; margin: 10px}
+
+.social{display:flex; margin: 10px}
+
+.form{display:flex; margin: 10px}
+
+.map{display:flex; margin: 10px}
