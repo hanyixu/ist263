@@ -1,13 +1,18 @@
-body{ color: #1A7594; background-color: #dcdcdc
-}
+body{ color: #1A7594; background-color: #dcdcdc}
 
 p{color: #4DA5D3}
 
-a{color: #4DA5D3}
+nav a{color: #ffffff
+}
 
 h1{color: #1a1a1a
 }
 
-nav a{color: #ff0000; background-color: #ffff11; padding: 10px; margin-bottom: 30px}
+nav{color: #ff0000; background-color: #1170ff; padding: 5px; margin-bottom: 30px}
 
 nav a:hover {background-color: #fff4d6;}
+
+.row1{background-color: white; display:flex; margin: 10px}
+
+.row2{background-color: white; display:flex; margin: 10px}
+
