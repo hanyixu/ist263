@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 10 Notes Responsive Design</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .row1 {
+            padding: 80px;
+            margin-top: 40px;
+            display: flex;
+            flex-wrap: wrap; /* will wrap colum next line */
+            /* this must be on the row of the flexbox */
+        }
+
+        .row1 div {
+            padding: 40px;
+            flex: 1; /*size columes in flexbox.*/
+        }
+
+        .banner {
+            width: 100%;
+        }
+
+        .bannersmall {
+            max-width: 100%; /* largest will be it's pixel size */
+        }
+
+        @media only screen and (max-width: 600px) {
+            body {
+                background-color: orange;
+            }
+            p {
+                color: blue;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<h1>Flexbox</h1>
+
+<!-- large width banner image -->
+<img src="https://laferger.github.io/ist263/images/forever_orange.jpg"
+	alt="large campus banner" class="banner">
+
+<!-- smaller width banner image -->
+<img
+	   src="https://laferger.github.io/ist263/images/forever_orange_small.jpg"
+	   alt="small campus banner" class="bannersmall">
+
+<!-- this row is coming from https://www.syracuse.edu/about/ -->
+<div class="row1">
+    <div class="box1">
+	   <img
+			 src="https://laferger.github.io/ist263/images/eighty-percent-numeral-800x533.png"
+			 alt="80 percent"><br>
+	   <p>80% of Syracuse University students received some form of
+		  financial support totaling more than $414 million (2019-2020
+		  data)</p>
+    </div>
+    <div class="box2">
+	   <img
+			 src="https://laferger.github.io/ist263/images/eighty-seven-percent-800x533.png"
+			 alt="80 percent">
+	   <p>87% placement outcome (Graduates in full-and part-time
+		  positions, military service, volunteer or service programs,
+		  and graduate school.)</p>
+    </div>
+    <div class="box3">
+	   <img
+			 src="https://laferger.github.io/ist263/images/ninety-percent-800x533.png"
+			 alt="80 percent">
+	   <p>Positions related to Career Goals</p>
+    </div>
+</div>
+
+</body>
+</html>
