@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+  <style>
+    @media only screen and (max-width: 800px) {
+      body {
+        background-color: #ffffff;
+      }
+      .row1 {
+        color: #000000;
+        display: none;
+      }
+    }
+    @media only screen and (min-width: 800px){
+      body {background-color: #ffffff;}
+      .row2 {color: #000000; display: none;}
+    }
+  </style>
+</head>
+<body>
+<p class="row1">I'm large.</p>
+<p class="row2">I'm small.</p>
+</body>
+</html>
