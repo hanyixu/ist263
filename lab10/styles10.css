@@ -17,3 +17,9 @@ h1{text-align: center;}
 
 
 .HTML .C .chemistry .cooking .excel {display: flex;}
+
+@media only screen and (min-width: 100px){
+    nav a{
+
+    }
+}
