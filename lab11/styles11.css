@@ -1,0 +1,25 @@
+body{ color: #000000; background-color: #ffffff
+}
+
+p{color: #4DA5D3}
+
+nav a{color: #ffffff
+}
+
+h1{color: #1a1a1a
+}
+
+nav{color: #ff0000; background-color: #1170ff; padding: 5px; margin-bottom: 30px}
+
+nav a:hover {background-color: #fff4d6;}
+
+h1{text-align: center;}
+
+
+.HTML .C .chemistry .cooking .excel {display: flex;}
+
+@media only screen and (min-width: 100px){
+    nav a{
+
+    }
+}
