@@ -1,9 +1,7 @@
- ist263 
+IST 263 Fall 2022
  
- Name: Hanyi Xu
+Intro to Front-End Web Dev
 
- Syracuse University
+Name: Hanyi Xu
 
- Class of 2024
-
- hxu100@syr.edu
+Syracuse University

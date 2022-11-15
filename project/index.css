@@ -1,0 +1,24 @@
+p a h1 {
+    font-family: Muli, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif
+}
+
+a {
+    color: white;
+}
+
+.nav {
+    display: flex;
+    background-color: #7e7676;
+    color: #ffffff;
+    justify-content: flex-end;
+}
+
+.nav div {
+    padding: 15px;
+}
+
+.name, .job {
+    display: flex;
+    white-space: pre-wrap;
+    justify-content: center;
+}
