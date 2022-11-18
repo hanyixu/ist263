@@ -1,33 +1,49 @@
-.name, .job, hr, .personal, a {
+.name, .job, hr, .personal, .email, .ppic, .newhouse, .more, footer, .socialmedia {
     margin-left: 200px;
     margin-right: 200px;
 }
 
-p a h1 {
-    font-family: Muli, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif
+body {
+    background-color: #ece8e8
 }
 
-a {
+/*p, a, h1 {*/
+/*    font-family: Muli, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif*/
+/*}*/
+
+h1{
+    font-size: 40px;
+
+}
+.email {
     display: flex;
     color: #000000;
     justify-content: center;
 }
 
-.nav {
-    display: flex;
-    background-color: #7e7676;
-    color: #ffffff;
-    justify-content: flex-end;
+a:hover {
+    color: #d2d2d2;
 }
 
-.nav div {
+.nav1 {
+    display: flex;
+    background-color: #b0aaaa;
+    color: #ffffff;
     padding: 15px;
+    justify-content: flex-start;
+}
+
+.nav1 a{
+    color: #ffffff;
+    padding: 20px;
+}
+
+.nav1 a:hover, .socialmedia a:hover{
+    color: #d2d2d2;
 }
 
 .name, .job {
-    display: flex;
-    white-space: pre-wrap;
-    justify-content: center;
+    text-align: center;
 }
 
 .personal {
@@ -35,6 +51,21 @@ a {
 
 }
 
-.ppic{
+.ppic {
+    display: flex;
+    float: right;
+}
+
+.school {
+    display: flex;
     float: left;
+}
+
+.newhouse {
+    display: flex;
+}
+
+.socialmedia a{
+    color: black;
+    padding: 10px;
 }
