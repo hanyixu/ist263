@@ -1,4 +1,4 @@
-.name, .job, hr, .personal, .email, .ppic, .newhouse, .more, footer, .socialmedia {
+.name, .job, hr, .personal, .email, .ppic, .newhouse, .more, footer, .socialmedia, .ppic2 {
     margin-left: 200px;
     margin-right: 200px;
 }
@@ -68,4 +68,9 @@ a:hover {
 .socialmedia a{
     color: black;
     padding: 10px;
+}
+
+.ppic2{
+    display: flex;
+    justify-content: center;
 }
