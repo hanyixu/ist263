@@ -1,0 +1,84 @@
+.name, .job, hr, .personal2, .block1, .email, .ppic, .newhouse, .more, footer, .socialmedia, .ppic2 {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+body {
+    background-color: #ece8e8
+}
+
+/*p, a, h1 {*/
+/*    font-family: Muli, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif*/
+/*}*/
+
+h1{
+    font-size: 40px;
+
+}
+.email {
+    display: flex;
+    color: #000000;
+    justify-content: center;
+}
+
+a:hover {
+    color: #d2d2d2;
+}
+
+.nav1 {
+    display: flex;
+    background-color: #b0aaaa;
+    color: #ffffff;
+    padding: 15px;
+    justify-content: flex-start;
+}
+
+.nav1 a{
+    color: #ffffff;
+    padding: 20px;
+}
+
+.nav1 a:hover, .socialmedia a:hover{
+    color: #cccccc;
+}
+
+.name, .job {
+    text-align: center;
+}
+
+.personal {
+    order: 2;
+}
+
+.ppic {
+    order: 1;
+}
+
+.block1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.school {
+    display: flex;
+    float: left;
+}
+
+.newhouse {
+    display: flex;
+}
+
+.socialmedia a{
+    color: black;
+    padding: 10px;
+}
+
+.ppic2{
+    display: flex;
+    justify-content: center;
+}
+
+.foot{
+    color: #9d9d9d;
+}
