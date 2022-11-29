@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Picker</title>
+  <script>
+    function changeColor (){
+      document.getElementById("thepage").style.backgroundColor = document.getElementById("picker").value;
+    }
+  </script>
+</head>
+<body id="thepage">
+<form>
+  <input type="color" id="picker" onchange="changeColor()">
+</form>
+</body>
+</html>
