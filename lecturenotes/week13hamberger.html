@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hamburger Menu</title>
+    <!--
+    css
+    1. Large - no hamburger
+    2. Small - show hamburger
+    3. Large - no X
+    4. Small - show X
+    5. Large - Links side by side
+    6. Small - Links are stacked
+
+    JavaScript
+    7. On hamburger click show the links
+    8. On x hide the links
+
+    -->
+    <style>
+        #hamicon {
+            display: none;
+        }
+
+        #close {
+            display: none;
+        }
+
+        #navlinks a {
+            background-color: orange;
+        }
+
+        @media only screen and (max-width: 800px) {
+            #hamicon {
+                display: block;
+            }
+
+            #close {
+                display: block;
+            }
+
+            #navlinks a {
+                display: block;
+                background-color: orange;
+            }
+
+            /* this will stack links since block is full width */
+            #navlinks {
+                display: none;
+            }
+        }
+    </style>
+    <script>
+        function showNav() {
+            document.getElementById("navlinks").style.display = "block";
+            document.getElementById("close").style.display = "block";
+
+        }
+
+        function hideNav() {
+            document.getElementById("navlinks").style.display = "none";
+            document.getElementById("close").style.display = "none";
+        }
+
+    </script>
+</head>
+<body>
+
+<div class="myflexbox">
+    <div><img src="http://laferger.github.io/ist263/images/hamburger.png" id="hamicon" onclick="showNav()">
+    </div>
+    <div><p id="close">X</p></div>
+</div>
+
+
+<div id="navlinks">
+    <a href="../lab11/index.html">Home</a>
+    <a href="../lab11/skills.html">Skills</a>
+    <a href="../lab11/contact.html">Contact</a>
+</div>
+</body>
+</html>
